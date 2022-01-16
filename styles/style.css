@@ -121,3 +121,50 @@ hr{
 .bike img{
     width: 355px;
 }
+/* latest news style */
+.heading{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 38px;
+  
+}
+.newes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 87px;
+}
+.news{
+    background-color: white;
+    width: 377px;
+    box-shadow: 0px 0px 4px 0px #00000026;
+    margin-bottom: 30px;
+}
+.news-baner img{
+   width: 337px;
+   margin: 20px;
+}
+.news-detailes {
+    margin-left: 20px;
+}
+.news-detailes h2{
+    font-size: 28px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+.news-detailes p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+.news-detailes button{
+    background: #e76f51;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+.news-detailes button a{
+    text-decoration: none;
+    color: white;
+    
+}
