@@ -1,0 +1,123 @@
+/* commmon style */
+body{
+     font-family: 'Mukta', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Slabo 27px', serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* header style */
+header{
+    background-color: #264653;
+}
+nav{
+    width: 1200px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav ul li{
+    margin-right: 20px;
+    padding-top: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    margin-top: 36px;
+}
+.btn{
+    background: #e76f51;
+    border: none;
+    margin-left: 20px;
+    width: 51px;
+    height: 22px;
+ }
+.btn a{
+    padding: 10px;
+}
+.honda-cbr{
+    width: 1200px;
+    display: flex;
+    margin-top: 59px;
+}
+.honda-cbr-details {
+    width: 54%;
+    margin-left: 247px;
+    padding: 32px;
+}
+.honda-cbr-details h5{
+    font-size: 14px;
+    font-weight: 300;
+   color: white;
+   padding: 2px 0;
+}
+.honda-cbr-details h2{
+    font-size: 48px;
+    color: white;
+    font-weight: 600;
+    padding: 8px 0;
+}
+.honda-cbr-details p{
+    font-size: 16px;
+   font-weight: 300;
+   color: #fff;
+   margin-bottom: 13px;
+}
+.honda-cbr-details button{
+    background-color: #e76f51;
+    border: none;
+    padding: 10px 31px;
+    border-radius: 5px;
+}
+.honda-cbr-details button a{
+    text-decoration: none;
+   color: white;
+   font-size: 16px;
+}
+.honda-cbr-thumbnil {
+    width: 552px;
+    margin-left: 75px;
+    margin-bottom: 96px;
+}
+.honda-cbr-thumbnil img{
+    width: 81%;
+}
+/* feature bike style */
+.bike-feature {
+    text-align: center;
+    margin-top: 37px;
+}
+.bike-feature h2{
+    font-size: 45px;
+    font-weight: 600;
+}
+.bike-feature p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #e76f51;
+}
+hr{
+   color: #e76f51;
+   width: 65px;
+   position: relative;
+   left: 639px;
+   top: 3px;
+}
+.bikes{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+}
+.bike {
+    margin: 80px 0;
+  }
+.bike img{
+    width: 355px;
+}
