@@ -126,7 +126,6 @@ hr{
     text-align: center;
     margin-bottom: 35px;
     font-size: 38px;
-  
 }
 .newes{
     display: grid;
@@ -165,6 +164,57 @@ hr{
 }
 .news-detailes button a{
     text-decoration: none;
-    color: white;
+    color: white; 
+}
+/* happy clients style */
+.client-area{
+    margin-top: 80px;
+}
+.heading span{
+    color: #e76f51;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.client{
+    width: 264px;
+    border: 1px solid #DEDEDE;
+    margin-left: 21px;
+}
+.client-image {
+    text-align: center;
+}
+.client-image img{
+    width: 52px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.client-details{
+    text-align: center;
+
+}
+.client-details p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 88%;
+    margin-left: 14px;
+    margin-bottom:15px;
+
+}
+.client-details h5{
+    margin-bottom: 15px;
+    color: #23a6f0;
+}
+.icon {
+    margin-bottom: 15px;
     
+}
+.client-details h3{
+
+}
+.star-color{
+    color: goldenrod;
 }
